@@ -8,7 +8,7 @@ var playerCar1, playerCar2, playerCar3, playerCar4;
 var Cars;
 
 function setup(){
-    createCanvas(displayWidth, displayHeight);
+    createCanvas(displayWidth-20, displayHeight-30);
     database = firebase.database();
     game = new Game();
     game.getState();
